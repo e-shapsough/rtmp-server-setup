@@ -24,4 +24,4 @@ you will also need to set who can stream to your server via restricting ip acces
 
 
 
-* For debian/ubuntu distros only
+* For debian 8+/ubuntu 16.04+ distros only
