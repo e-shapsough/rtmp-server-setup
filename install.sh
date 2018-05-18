@@ -2,7 +2,7 @@
 apt-get update
 apt-get dist-upgrade -y
 apt-get upgrade -y
-apt-get install nano unzip htop nmap -y
+apt-get install nano unzip htop nmap nodejs npm -y
 apt-get install build-essential libpcre3 libpcre3-dev libssl-dev -y
 wget http://nginx.org/download/nginx-1.13.12.tar.gz
 wget https://github.com/arut/nginx-rtmp-module/archive/master.zip
