@@ -11,3 +11,5 @@ The script will compile nginx with the rtmp module, install the statistics softw
 
 if you need ssl you will need to provide your own certs and install them
 you will also need to set who can stream to your server via restricting ip access from the nginx config file
+
+* For debian/ubuntu distros only
