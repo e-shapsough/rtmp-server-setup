@@ -1,11 +1,11 @@
 #!/bin/bash
+export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get dist-upgrade -y
 apt-get upgrade -y
-apt-get install nano unzip htop nmap -y
+apt-get install nano unzip htop nmap dialog curl -y
 apt-get install build-essential libpcre3 libpcre3-dev libssl-dev -y
-curl -sL https://deb.nodesource.com/setup_8.x | -E bash -
-apt-get update
+curl -sL https://deb.nodesource.com/setup_8.x | bash -
 apt-get install nodejs npm -y
 ln -s "$(which nodejs)" /usr/bin/node
 wget http://nginx.org/download/nginx-1.13.12.tar.gz
