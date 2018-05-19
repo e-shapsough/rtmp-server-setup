@@ -20,7 +20,7 @@ rm -f /usr/local/nginx/conf/nginx.conf
 cd ../
 mv nginx.conf /usr/local/nginx/conf/nginx.conf
 mv streamer.service /etc/systemd/system/streamer.service
-mv status.service /etc/systemd/system/streamer.status
+mv status.service /etc/systemd/system/status.service
 cd ../
 git clone https://github.com/fiftysoft/nginx-rtmp-monitoring.git
 cd nginx-rtmp-monitoring
