@@ -28,6 +28,8 @@ you will also need to set who can stream to your server via restricting ip acces
 
 * You will need to edit the file "/root/nginx-rtmp-monitoring/config.json", Edit rtmp_server_url,rtmp_server_stream_url,rtmp_server_control_url,session_secret_key,password.
 
+* Do not forget to restart the status service (service status restart)
+
 * You can now push your streams and watch them on rtmp://server-ip/streams/your_stream_name
 
 * You can watch HLS on http://server-ip:8080/hls/your_stream_name.m3u8
