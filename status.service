@@ -5,6 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=root
+WorkingDirectory=/root/nginx-rtmp-monitoring
 ExecStart=/usr/bin/node /root/nginx-rtmp-monitoring/server.js
 Restart=on-failure
 
