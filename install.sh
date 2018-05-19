@@ -20,10 +20,13 @@ rm -f /usr/local/nginx/conf/nginx.conf
 cd ../
 mv nginx.conf /usr/local/nginx/conf/nginx.conf
 mv streamer.service /etc/systemd/system/streamer.service
+mv status.service /etc/systemd/system/streamer.status
 cd ../
 git clone https://github.com/fiftysoft/nginx-rtmp-monitoring.git
 cd nginx-rtmp-monitoring
 npm install
 systemctl enable streamer.service
+systemctl enable status.service
 service streamer restart
+service status restart
 reboot
