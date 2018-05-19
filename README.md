@@ -1,7 +1,7 @@
 # rtmp-server-setup
 How to setup
 
-1- install git on your server
+1- install git on your server (apt-get onstall git)
 
 2- git clone https://github.com/e-shapsough/rtmp-server-setup.git
 
