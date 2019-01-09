@@ -4,7 +4,7 @@ apt-get update
 apt-get dist-upgrade -y
 apt-get upgrade -y
 apt-get install nano unzip htop nmap dialog curl -y
-apt-get install build-essential libpcre3 libpcre3-dev libssl-dev -y
+apt-get install build-essential libpcre3 libpcre3-dev libssl-dev zlibc zlib1g zlib1g-dev -y
 curl -sL https://deb.nodesource.com/setup_8.x | bash -
 apt-get install nodejs -y
 ln -s "$(which nodejs)" /usr/bin/node
